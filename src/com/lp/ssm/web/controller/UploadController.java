@@ -24,6 +24,7 @@ public class UploadController {
         //1.获取文件数据
         MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
         MultipartFile originalFileName = multipartHttpServletRequest.getFile("itemsPic");
+//        System.out.println("上传文件大小为：" + originalFileName.getSize());
 
         //2.保存文件
         String uploadPath = request.getServletContext().getRealPath("/upload");
@@ -39,6 +40,7 @@ public class UploadController {
 
         //3.返回到客户端
         String imgURL = "http://localhost:8080/upload/" + fileName;
+//        System.out.println(imgURL);
         String responseJson = "{\"imgUrl\":\"" + imgURL + "\"}";
         writer.write(responseJson);
     }
