@@ -40,7 +40,6 @@ public class UploadController {
 
         //3.返回到客户端
         String imgURL = "http://localhost:8080/upload/" + fileName;
-//        System.out.println(imgURL);
         String responseJson = "{\"imgUrl\":\"" + imgURL + "\"}";
         writer.write(responseJson);
     }
