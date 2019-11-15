@@ -12,30 +12,32 @@
     <title>商品列表</title>
 </head>
 <body>
-商品：<br>
-<table border="1">
-    <tr>
-        <td>名称</td>
-        <td>价格</td>
-        <td>描述</td>
-        <td>图片</td>
-        <td>操作</td>
-    </tr>
-    <c:forEach items="${itemsList}" var="items">
+<div style="align-content: center">
+    商品：<br>
+    <table border="1">
         <tr>
-            <td>${items.name}</td>
-            <td>${items.price}</td>
-            <td>${items.detail}</td>
-            <td>${items.pic}</td>
-            <td>
-                <a href="${pageContext.request.contextPath}/items/add.do">添加</a>
-                &nbsp;<a href="${pageContext.request.contextPath}/items/delete.do?id=${items.id}">删除</a>
-                &nbsp;<a href="${pageContext.request.contextPath}/items/edit.do?id=${items.id}">编辑</a>
-
-            </td>
+            <td>名称</td>
+            <td>价格</td>
+            <td>描述</td>
+            <td>图片</td>
+            <td>操作</td>
         </tr>
-    </c:forEach>
-</table>
+        <c:forEach items="${itemsList}" var="items">
+            <tr>
+                <td>${items.name}</td>
+                <td>${items.price}</td>
+                <td>${items.detail}</td>
+                <td><img id="pic" src="${items.pic}" width="100px" height="100px"></td>
+                <td>
+                    <a href="${pageContext.request.contextPath}/items/add.do">添加</a>
+                    &nbsp;<a href="${pageContext.request.contextPath}/items/delete.do?id=${items.id}">删除</a>
+                    &nbsp;<a href="${pageContext.request.contextPath}/items/edit.do?id=${items.id}">编辑</a>
+                </td>
+            </tr>
+        </c:forEach>
+    </table>
+</div>
+
 
 </body>
 </html>

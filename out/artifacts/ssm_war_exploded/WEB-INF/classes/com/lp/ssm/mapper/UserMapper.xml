@@ -300,4 +300,9 @@
       address = #{address,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+<!--  <select id="selectByUsernameAndPassword" parameterType="string" resultType="user">-->
+<!--    select *from user-->
+<!--    where username = #{username} and password = #{password}-->
+<!--  </select>-->
 </mapper>
