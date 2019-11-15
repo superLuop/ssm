@@ -25,7 +25,7 @@
     </bean>
     <!-- 配置freemarker -->
 <!--    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">-->
-<!--        <property name="templateLoaderPath" value="/WEB_INF/views/"></property>-->
+<!--        <property name="templateLoaderPath" value="/WEB-INF/views/"></property>-->
 <!--        <property name="defaultEncoding" value="utf-8"></property>-->
 <!--    </bean>-->
 <!--    <bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">-->

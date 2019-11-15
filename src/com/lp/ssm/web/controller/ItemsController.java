@@ -2,6 +2,8 @@ package com.lp.ssm.web.controller;
 
 import com.lp.ssm.model.Items;
 import com.lp.ssm.service.ItemsService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,11 +15,15 @@ import java.util.List;
 @RequestMapping("items")
 public class ItemsController {
 
+    private static final Logger logger = LoggerFactory.getLogger(ItemsController.class);
     @Autowired
     private ItemsService itemsService;
 
     @RequestMapping("list")
     public String list(Model model){
+        logger.info("---------获取商品列表--------info-----");
+        logger.debug("---------获取商品列表--------debug-----");
+        logger.error("---------获取商品列表--------error-----");
         //查数据
         List<Items> itemsList = itemsService.findAllItems();
         //2.存数据
