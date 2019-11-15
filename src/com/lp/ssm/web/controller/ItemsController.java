@@ -26,7 +26,6 @@ public class ItemsController {
         logger.error("---------获取商品列表--------error-----");
         //查数据
         List<Items> itemsList = itemsService.findAllItems();
-        //2.存数据
         model.addAttribute("itemsList",itemsList);
         return "items/list";
     }

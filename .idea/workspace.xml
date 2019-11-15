@@ -6,25 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6acafbe-5dab-4708-ab29-d42ff145714f" name="Default Changelist" comment="添加登录功能，完善商品显示页面（图片显示）">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/lp/ssm/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/config/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/views/items/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/views/items/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ssm/com/lp/ssm/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ssm/config/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lp/ssm/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lp/ssm/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lp/ssm/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lp/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lp/ssm/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lp/ssm/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/spring_mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/views/items/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/views/items/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e6acafbe-5dab-4708-ab29-d42ff145714f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -462,7 +444,7 @@
       <workItem from="1573563118731" duration="8501000" />
       <workItem from="1573632250724" duration="14080000" />
       <workItem from="1573694691802" duration="8784000" />
-      <workItem from="1573781911714" duration="18070000" />
+      <workItem from="1573781911714" duration="18365000" />
     </task>
     <task id="LOCAL-00001" summary="first version">
       <created>1573740076107</created>
@@ -527,11 +509,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573807831525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加登录功能，完善商品显示页面（图片显示）">
+      <created>1573808569388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573808569388</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49435000" />
+    <option name="totallyTimeSpent" value="49730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="306" y="12" width="1555" height="991" extended-state="0" />
